@@ -1,0 +1,18 @@
+local buttons = {
+	{
+		"Label",
+		"Game: Cleaning Simulator",
+		Enum.Font.Gotham,
+		Enum.TextXAlignment.Left,
+	};
+	{
+		"Button",
+		"Get All Badges",
+		function()
+			local badges = {"840060501", "841252536", "841284339", "882268300", "882673666", "882676809", "888936476", "931445383", "931445542", "931445681" } for badge=1,#badges do game.Workspace.Share.Badge:FireServer(badges[badge]) end
+		end
+	};
+	{
+		
+	};
+}
